@@ -21,7 +21,7 @@
 </details>
 
 ## 프로젝트 아키텍쳐 구상
-![project3 workflow](https://github.com/user-attachments/assets/e177fa17-bbf5-4ca1-941e-423432863a6f)
+![project3 workflow (1)](https://github.com/user-attachments/assets/f702675c-e4ac-433c-9609-65235861176a)
 
 ## Team Repository
 [TEAM 1 REPO](https://github.com/DE32-3nd-team1/DE32-3nd-team1)
