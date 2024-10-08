@@ -69,14 +69,25 @@ Frontend, Backend와 Airflow, Pyspark까지 각각의 기능을 전부 Dockerizi
 ### Backend Install
 **Docker pull** : `$ docker pull baechu805/b_team1:0.1.2`<br />
 **Docker run** : `$ sudo docker run -d -p 8002:8002 --name b_team1 -e DB_IP=52.78.215.75 -e DB_PORT=53306 baechu805/b_team1:0.1.2`
+### Database Install
+**Docker pull** : <br />
+**Docker run** :
+### Airflow Install
+**Docker pull** : <br />
+**Docker run** :
+### PySpark Install
+**Docker pull** : <br />
+**Docker run** :
 
 ## 프로젝트 회고
-**김도현**:
+**김도현**: 이미지
 **김령래**:
 **김태영**:
 **배주영**:
 **조수진**:
 
-## 라이센스
+## 프레젠테이션
+[팀ppt](https://www.miricanvas.com/v/13qta5z)
 
+## 라이센스
 이 라이센스는 소프트웨어의 사용, 복사, 수정, 병합, 출판 및 판매를 허가하며, 소프트웨어의 저작권 및 라이센스 고지를 포함해야 합니다.
