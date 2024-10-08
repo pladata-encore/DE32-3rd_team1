@@ -5,13 +5,12 @@
 ## 📚 목차
 1. [프로젝트 개요](#프로젝트-개요)
 2. [프로젝트 아키텍쳐 구상](#프로젝트-아키텍쳐-구상)
-3. [사용 스택](#⚙️-Stacks)
-4. [주요 기능](#🎯-주요-기능)
-5. [설치및 사용 방법](#🚀-설치-방법)
-6. [팀원 회고](#프로젝트-회고)
-7. [라이센스](#📄-라이센스) 
+3. [주요 기능](#주요-기능)
+4. [설치및 사용 방법](#사용-방법)
+5. [팀원 회고](#프로젝트-회고)
+6. [라이센스](#라이센스)
    
-## 🔰 프로젝트 개요
+## 프로젝트 개요
 이 프로젝트는 영수증을 찍어서 업로드하면 자동으로 모델이 문서화해주어 추후에 어떤 분야, 어떤 날에 얼마나 쓸 수 있는지 추적할 수 있는 서비스 입니다.
 <details>
   <summary><strong>Demo 확인하기</strong></summary>
@@ -21,13 +20,13 @@
 
 </details>
 
-## 🏗 프로젝트 아키텍쳐 구상
+## 프로젝트 아키텍쳐 구상
 ![project3 workflow](https://github.com/user-attachments/assets/e177fa17-bbf5-4ca1-941e-423432863a6f)
 
 ## Team Repository
 [TEAM 1 REPO](https://github.com/DE32-3nd-team1/DE32-3nd-team1)
 
-## ⚙️ Stacks
+## Stacks
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) 
@@ -35,7 +34,7 @@
 ![Huggingface](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
 
-## 🎯 주요 기능
+## 주요 기능
 
 1. **이미지 업로드 후 데이터 베이스 저장**
    - 사용자는 **Streamlit** 인터페이스를 통해 영수증 이미지를 업로드할 수 있습니다.
@@ -56,13 +55,13 @@
    - **PySpark**를 활용하여 예측된 데이터를 집계하고 분석합니다.
    - **Streamlit**에서 일별 소비 총액, 월별 소비 총액 등으로 소비습관을 파악할 수 있습니다.
 
-## 🚀 사용 방법(User 관점)
+## 사용 방법
 
 1. Streamlit 접속(ip address/port)
 2. 영수증 이미지 업로드
 3. Streamlit 시각화 페이지 추후에 확인
 
-## 🚀 설치 방법(관리자 관점)
+## 설치 방법
 Frontend, Backend와 Airflow, Pyspark까지 각각의 기능을 전부 Dockerizing하여 설치가 용이하도록 하였습니다. 
 ### Frontend Install
 **Docker pull** : `$ sudo docker pull lsiwh37249/f_team1`<br />
@@ -78,6 +77,6 @@ Frontend, Backend와 Airflow, Pyspark까지 각각의 기능을 전부 Dockerizi
 **배주영**:
 **조수진**:
 
-## 📄 라이센스
+## 라이센스
 
 이 라이센스는 소프트웨어의 사용, 복사, 수정, 병합, 출판 및 판매를 허가하며, 소프트웨어의 저작권 및 라이센스 고지를 포함해야 합니다.
