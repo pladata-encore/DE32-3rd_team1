@@ -12,13 +12,6 @@
    
 ## 프로젝트 개요
 이 프로젝트는 영수증을 찍어서 업로드하면 자동으로 모델이 문서화해주어 추후에 어떤 분야, 어떤 날에 얼마나 쓸 수 있는지 추적할 수 있는 서비스 입니다.
-<details>
-  <summary><strong>Demo 확인하기</strong></summary>
-
-  ![test1](https://github.com/user-attachments/assets/498ea2fd-df40-4c08-b5d9-de3b283fa623)
-  이미지 업로드 및 시각화 페이지 보여주기
-
-</details>
 
 ## 프로젝트 아키텍쳐 구상
 ![project3 workflow (1)](https://github.com/user-attachments/assets/f702675c-e4ac-433c-9609-65235861176a)
