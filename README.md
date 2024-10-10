@@ -64,7 +64,12 @@ Frontend, Backend와 Airflow, Pyspark까지 각각의 기능을 전부 Dockerizi
 **Docker run** : `$ sudo docker run -d -p 8002:8002 --name b_team1 -e DB_IP=52.78.215.75 -e DB_PORT=53306 baechu805/b_team1:0.1.2`
 ### Airflow Install
 **Docker pull** : `$ docker pull sooj1n/airflow:0.3.1`<br />
-**Docker run** : `$ sudo docker run -d -p 8002:8002 --name b_team1 -e DB_IP=52.78.215.75 -e DB_PORT=53306 sooj1n/airflow:0.3.1`
+**Docker run** : `$ sudo docker run -d -p 8080:8080 \
+> -v /home/ubuntu/images/:/home/ubuntu/images/ \
+> -v /home/ubuntu/airflow/dags/:/opt/airflow/dags/ \
+> --entrypoint=/bin/bash \
+> --name airflow sooj1n/airflow:0.3.1 \
+> -c '(airflow db init && airflow users create --username admin --password admin --firstname Anonymous --lastname Admin --role Admin --email test@test.com); airflow webserver & airflow scheduler'
 
 ## 프레젠테이션
 [팀ppt](https://docs.google.com/presentation/d/1eEjRoTl1rVfWlgvs5Na0BdWhGG5vo6vbI2_LrgWT-0c/edit#slide=id.g2f9df5f8404_1_75)
