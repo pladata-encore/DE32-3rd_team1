@@ -62,15 +62,9 @@ Frontend, Backend와 Airflow, Pyspark까지 각각의 기능을 전부 Dockerizi
 ### Backend Install
 **Docker pull** : `$ docker pull baechu805/b_team1:0.1.2`<br />
 **Docker run** : `$ sudo docker run -d -p 8002:8002 --name b_team1 -e DB_IP=52.78.215.75 -e DB_PORT=53306 baechu805/b_team1:0.1.2`
-### Database Install
-**Docker pull** : <br />
-**Docker run** :
 ### Airflow Install
-**Docker pull** : <br />
-**Docker run** :
-### PySpark Install
-**Docker pull** : <br />
-**Docker run** :
+**Docker pull** : `$ docker pull sooj1n/airflow:0.3.1`<br />
+**Docker run** : `$ sudo docker run -d -p 8002:8002 --name b_team1 -e DB_IP=52.78.215.75 -e DB_PORT=53306 sooj1n/airflow:0.3.1`
 
 ## 프레젠테이션
 [팀ppt](https://docs.google.com/presentation/d/1eEjRoTl1rVfWlgvs5Na0BdWhGG5vo6vbI2_LrgWT-0c/edit#slide=id.g2f9df5f8404_1_75)
